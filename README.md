@@ -1,3 +1,7 @@
+#Introduction
+This project has been carried out as a learning process for a Udemy course called TypeScript Complete Course - Beginner To Advanced + Project by Manik(Cloudaffle). It is a task manager application build using react, Material UI and typescript. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
