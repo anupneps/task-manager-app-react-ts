@@ -1,6 +1,6 @@
 import { TextField, Stack } from "@mui/material"
 import { TaskDateField } from "./_taskDateField"
-import { TaskSelectField } from "./_taskSelectField"
+
 
 
 export interface DisabledProp{
@@ -27,11 +27,7 @@ const TaskTitleField = ({disabled = false, textFieldOnChange = (e)=> console.log
             <TextField id="description" label="Description" variant="outlined" multiline rows={4} size="small" name='description' fullWidth />
             <TaskDateField/>
 
-            <Stack direction={'row'} spacing={2} sx={{ width: '100%' }}>
-                <TaskSelectField/>
-                <TaskSelectField/>
-
-            </Stack>
+            
 
 
         </Stack>
